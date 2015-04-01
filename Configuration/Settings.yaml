@@ -1,0 +1,26 @@
+ByTorsten:
+  Routing:
+    dimension:
+      dimensionDecisionMakers:
+        resolution: 'ByTorsten\Routing\Resolution\ResolutionDecisionMaker'
+
+TYPO3:
+  TYPO3CR:
+    contentDimensions:
+      'resolution':
+        default: 'lg'
+        defaultPreset: 'lg'
+        label: 'Device'
+        presets:
+          'lg':
+            label: 'Desktop'
+            values: ['lg']
+            uriSegment: ''
+          'md':
+            label: 'Tablet'
+            values: ['md', 'lg']
+            uriSegment: ''
+          'sm':
+            label: 'Phone'
+            values: ['sm', 'md', 'lg']
+            uriSegment: ''

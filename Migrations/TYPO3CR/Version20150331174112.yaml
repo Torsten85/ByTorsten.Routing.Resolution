@@ -1,0 +1,15 @@
+up:
+  comments: 'Add missing resolution dimensions'
+  warnings: 'There is no way of reverting this migration at the moment.'
+  migration:
+    -
+      filters: []
+      transformations:
+        -
+          type: 'ByTorsten\Routing\Resolution\Migration\Transformations\AddDimension'
+          settings:
+            dimensionName: 'resolution'
+
+
+down:
+  comments: 'No down migration available'
