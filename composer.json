@@ -2,6 +2,12 @@
     "name": "bytorsten/routing-resolution",
     "type": "typo3-flow-plugin",
     "description": "Add resolution routing for TYPO3.Neos",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "git@github.com:Torsten85/ByTorsten.Routing.git"
+      }
+    ],
     "require": {
         "typo3/flow": "*",
         "bytorsten/routing": "*",
