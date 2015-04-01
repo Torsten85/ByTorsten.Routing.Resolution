@@ -9,13 +9,12 @@
       }
     ],
     "require": {
-        "typo3/flow": "*",
         "bytorsten/routing": "*",
         "mobiledetect/mobiledetectlib": "2.8.12"
     },
     "autoload": {
         "psr-0": {
-            "ByTorsten\\Routing": "Classes"
+            "ByTorsten\\Routing\\Resolution": "Classes"
         }
     }
 }
