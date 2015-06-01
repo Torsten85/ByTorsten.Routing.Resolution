@@ -3,7 +3,7 @@
     "type": "typo3-flow-plugin",
     "description": "Add resolution routing for TYPO3.Neos",
     "require": {
-        "bytorsten/routing": "*",
+        "bytorsten/routing": "dev-master",
         "mobiledetect/mobiledetectlib": "2.8.12"
     },
     "autoload": {
